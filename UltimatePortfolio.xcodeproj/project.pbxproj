@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		956E67782A7B86150065D87D /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 956E67762A7B86150065D87D /* Main.xcdatamodeld */; };
+		956E677A2A7B890B0065D87D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E67792A7B890B0065D87D /* DataController.swift */; };
 		95935C412A7A5AD80093AFBB /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95935C402A7A5AD80093AFBB /* UltimatePortfolioApp.swift */; };
 		95935C432A7A5AD80093AFBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95935C422A7A5AD80093AFBB /* ContentView.swift */; };
 		95935C452A7A5ADA0093AFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95935C442A7A5ADA0093AFBB /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		956E67772A7B86150065D87D /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		956E67792A7B890B0065D87D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		956E677B2A7B8CF10065D87D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		95935C3D2A7A5AD80093AFBB /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95935C402A7A5AD80093AFBB /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		95935C422A7A5AD80093AFBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,8 +57,11 @@
 		95935C3F2A7A5AD80093AFBB /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				956E677B2A7B8CF10065D87D /* Info.plist */,
 				95935C402A7A5AD80093AFBB /* UltimatePortfolioApp.swift */,
 				95935C422A7A5AD80093AFBB /* ContentView.swift */,
+				956E67792A7B890B0065D87D /* DataController.swift */,
+				956E67762A7B86150065D87D /* Main.xcdatamodeld */,
 				95935C442A7A5ADA0093AFBB /* Assets.xcassets */,
 				95935C462A7A5ADA0093AFBB /* UltimatePortfolio.entitlements */,
 				95935C472A7A5ADA0093AFBB /* Preview Content */,
@@ -139,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				956E67782A7B86150065D87D /* Main.xcdatamodeld in Sources */,
+				956E677A2A7B890B0065D87D /* DataController.swift in Sources */,
 				95935C432A7A5AD80093AFBB /* ContentView.swift in Sources */,
 				95935C412A7A5AD80093AFBB /* UltimatePortfolioApp.swift in Sources */,
 			);
@@ -269,6 +279,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +318,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -354,6 +366,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		956E67762A7B86150065D87D /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				956E67772A7B86150065D87D /* Main.xcdatamodel */,
+			);
+			currentVersion = 956E67772A7B86150065D87D /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 95935C352A7A5AD80093AFBB /* Project object */;
 }
